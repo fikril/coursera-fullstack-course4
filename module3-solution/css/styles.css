@@ -1,0 +1,65 @@
+body {
+    font-family: 'Asap', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.navbar {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.navbar-default {
+    background-color: #BBBBBB;
+    border-color: #222222;
+}
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#bs-example-navbar-collapse-1 {
+    border: 0;
+}
+.nav > li {
+    border-top: 1px solid;
+    background-color: white;
+    color:#111111;
+}
+.nav > li:last-child {
+    border-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #111111;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #CCCCCC;
+}
+
+#title {
+    font-size: 28px;
+    margin: 20px;
+}
+
+.row>div {
+    padding-bottom: 15px;
+}
+
+.section-item {
+    background-color: #BBBBBB;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#111111;
+}
+
+.section-item>h3 {
+    margin-top: 10px;
+}
+.section-item>p {
+    margin: 5px 10px;
+}

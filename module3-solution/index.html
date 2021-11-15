@@ -1,28 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Solution for Module 3</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+</head>
 
-    <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
 <body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Food, LLC</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav visible-xs text-center">
+            <li><a href="#section1">Chicken</a></li>
+            <li><a href="#section2">Beef</a></li>
+            <li><a href="#section3">Sushi</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
 
-  <h1>Hello Coursera!</h1>
-
+  <h1 id="title" class="text-center">Our Menu</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-sx-12">
+        <div class="section-item">
+          <h3 id="section1" class="text-center">Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris diam, rhoncus nec fermentum ac, malesuada venenatis lectus. Nunc eu ante sit amet augue lacinia convallis. Mauris posuere malesuada felis at iaculis. Aenean cursus erat sagittis, pulvinar dolor a, consectetur purus. Cras lacinia elit nisl, scelerisque elementum tellus cursus at. Vivamus quis sagittis diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci odio, imperdiet et vestibulum quis, rhoncus nec quam.</p>
+          <p>In in nisi sed nisi luctus lobortis id nec massa. Proin et tellus sed augue imperdiet egestas sit amet fringilla purus. Donec quis mauris vel erat efficitur rutrum at a dolor. Pellentesque augue dolor, tincidunt et ultrices at, feugiat in leo. Proin ultricies suscipit quam in euismod. Donec euismod eleifend orci id venenatis. In lectus purus, posuere sit amet facilisis nec, egestas vel justo. Proin vitae metus malesuada orci tempus volutpat. In egestas est ex, et porttitor nisl sagittis in. Vestibulum dapibus auctor erat, laoreet feugiat lacus porttitor vel. Vestibulum purus elit, auctor sed cursus quis, vulputate at sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Vestibulum in felis imperdiet, pellentesque metus a, auctor enim.</p>
+          <p>Aenean eget nibh dui. Nullam ut felis feugiat odio posuere mollis. Phasellus aliquam metus in arcu efficitur, sed dapibus nulla imperdiet. Praesent condimentum sem eget risus egestas euismod. Aenean a ipsum id dui laoreet scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi consectetur velit ut sodales maximus. Ut id malesuada justo. Donec id augue justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam tempor mi mollis malesuada ornare. Nam ullamcorper faucibus nisl nec dignissim.</p>
+          <p>Vivamus ipsum ante, cursus eu velit eu, lobortis dapibus nisl. Aliquam id ipsum dictum, dapibus ipsum non, molestie eros. Integer consectetur nunc metus, et iaculis quam convallis a. Curabitur diam nunc, congue at varius a, scelerisque et erat. Phasellus lacus magna, rhoncus at sodales quis, dapibus ac ante. Donec efficitur odio leo, nec tempor ligula vulputate nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi odio, lobortis sit amet imperdiet ac, posuere ac ipsum. Nam in auctor est. Quisque gravida turpis at dignissim commodo.</p>
+          <p>Vestibulum dapibus, purus ut aliquet dignissim, diam felis vehicula massa, ac hendrerit metus odio at libero. Nulla eu augue in justo tempus scelerisque at laoreet nibh. Aliquam imperdiet dui a mi fringilla auctor. Donec faucibus augue sed purus porta, ut bibendum lectus semper. Maecenas laoreet sodales metus, vel porta ex placerat vel. Mauris quis quam nulla. Sed nisl velit, congue eget pretium vel, finibus vitae tellus. Cras venenatis urna eu nibh iaculis sagittis. Fusce ultrices tincidunt ultricies. Praesent est urna, commodo non pulvinar a, fringilla accumsan nisi. Aenean et ligula felis. Integer a vehicula sapien, faucibus blandit magna.</p>
+          <p>Nulla velit sem, venenatis vitae quam interdum, aliquam tristique nulla. Ut in elementum purus. Donec sodales, neque nec vestibulum posuere, lacus ante sollicitudin sem, vitae interdum nulla sem et ante. Sed est odio, aliquam vitae placerat eget, molestie ut nunc. Nam blandit ex a nunc rutrum imperdiet. Curabitur id maximus felis, nec blandit felis. Aenean tempor dolor id vulputate sagittis. Suspendisse massa sem, fringilla vel pretium et, placerat sit amet risus. Ut elementum felis quis massa blandit pellentesque. Phasellus nunc lorem, venenatis a tempor non, placerat bibendum libero. Nullam quis turpis augue. Nunc tellus justo, gravida eu iaculis vel, pulvinar eu felis. Donec non euismod magna. Morbi consectetur ex vel odio placerat, et mollis velit suscipit. Morbi mattis, lacus sed feugiat sagittis, nisl diam vehicula mauris, et tempus lectus ligula ut leo. Aenean quam odio, laoreet vitae tristique eu, auctor ut lacus.</p>
+          <p>Aliquam porta nisl vitae erat rutrum, ut aliquam ex fringilla. Fusce congue pretium arcu. Aenean enim nisi, dictum ut placerat sed, rhoncus ut odio. Curabitur libero quam, lobortis vitae lacinia vel, sodales in libero. Duis ac suscipit ex, vel pellentesque est. Morbi sit amet efficitur dolor, et varius mi. Vivamus vitae aliquam nisl. Aliquam placerat nisl in ex rhoncus euismod. Nulla consequat venenatis sem sed mollis. Aenean malesuada eros eu lorem laoreet, eget suscipit lectus tincidunt. Sed eu orci vulputate, aliquet velit et, maximus diam. </p>
+          <p>(End of Chicken section) <a href="#title">Back To Top</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-sx-12">
+        <div class="section-item">
+          <h3 id="section2" class="text-center">Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla iaculis dui tempor mollis. In ut tincidunt neque, a tincidunt dolor. Maecenas scelerisque, metus at ultricies blandit, magna massa fringilla ante, imperdiet laoreet tortor elit sed sapien. Nunc ac nibh a leo mattis hendrerit id eu sapien. In in eros sit amet nulla sodales euismod ac sit amet lacus. Sed vitae lectus eget turpis fringilla varius ornare ut risus. Suspendisse cursus leo ipsum, non condimentum tortor gravida congue. Fusce nibh ipsum, ultricies in ullamcorper et, tempus vel orci. Nulla sodales ligula sit amet magna viverra dignissim. Fusce dignissim dapibus metus.</p>
+          <p>Aenean ut sollicitudin nisl. Sed vitae diam quam. Curabitur accumsan odio odio, sed vulputate ante mollis vel. Etiam sodales blandit nulla, porta malesuada tortor vulputate maximus. Praesent euismod orci ex, faucibus ultricies erat ornare at. Aenean auctor eu justo eget malesuada. Pellentesque ante eros, maximus rutrum quam in, lobortis varius nibh.</p>
+          <p>Donec a eleifend massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse convallis ipsum metus, at tempor dolor accumsan viverra. Donec in vehicula leo. Pellentesque ultrices eget lorem in ornare. Nunc vel felis magna. In sodales iaculis rhoncus. Phasellus vitae justo ac augue laoreet varius. Aliquam erat volutpat.</p>
+          <p>Sed venenatis, neque volutpat rutrum dictum, diam sem ultricies purus, at mattis dui elit non arcu. Duis iaculis id turpis eu lobortis. Maecenas euismod, eros id condimentum laoreet, sem lectus porta tortor, ac imperdiet justo dui ut neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean in augue sit amet risus tristique sagittis id consectetur magna. Cras posuere sapien diam, in dignissim ligula tincidunt nec. Integer in cursus quam. Integer dignissim porta quam nec volutpat. Maecenas eget felis dolor. Nullam laoreet feugiat lacus, sed porta risus ultricies sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum mollis odio sed convallis sagittis. Nam massa ipsum, ultrices ut erat sed, volutpat consequat dolor.</p>
+          <p>Maecenas consequat vitae mauris eget gravida. Donec convallis, lorem vel dignissim placerat, felis sem ultricies est, et tincidunt nulla felis vitae ipsum. Quisque quis erat eget neque venenatis accumsan eget quis nulla. Phasellus at orci non sem fringilla porttitor. Curabitur in mi nisi. Aenean sollicitudin iaculis tempus. Cras orci justo, mollis eu sem eget, molestie luctus mauris. Aliquam erat volutpat.</p>
+          <p>Suspendisse finibus pellentesque ullamcorper. Sed ullamcorper molestie massa eu congue. Donec eget orci nec orci sagittis gravida ut id diam. Nullam pretium dolor sagittis tellus sollicitudin tincidunt. Curabitur ut justo urna. Nunc et nulla accumsan urna placerat convallis vel at dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas mi justo, maximus ac justo id, vestibulum bibendum ipsum. Integer mauris nisi, placerat quis tempor ut, egestas et mauris.</p>
+          <p>Aliquam suscipit dictum turpis nec laoreet. Vestibulum tincidunt sem nisl, quis pharetra risus tristique quis. Curabitur scelerisque nunc sit amet felis mattis pretium. Curabitur suscipit odio vel dui gravida, id congue enim sodales. Fusce bibendum iaculis eros, id feugiat est facilisis ac. Pellentesque pharetra hendrerit tortor, sit amet convallis nulla mollis eget. Sed et imperdiet urna, vitae sodales augue. Nullam lobortis mollis ligula. Integer pharetra, est eget gravida sollicitudin, velit dui sollicitudin urna, gravida pretium purus libero a sapien. Vestibulum mauris turpis, suscipit sit amet mi vitae, imperdiet ultricies augue. Maecenas iaculis lorem non hendrerit consectetur. Proin molestie orci ornare malesuada ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque tincidunt mauris id eros sollicitudin cursus. Integer dictum purus ut turpis accumsan, quis dictum diam accumsan. </p>
+          <p>(End of Beef section) <a href="#title">Back To Top</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 col-sx-12">
+        <div class="section-item">
+          <h3 id="section3" class="text-center">Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in lectus sit amet dolor posuere consectetur id ac risus. Nullam fringilla nulla elit, sit amet mattis metus porttitor eu. Fusce eu sollicitudin erat. Cras ut urna commodo, pellentesque est auctor, blandit ligula. Phasellus facilisis nisi sed bibendum rhoncus. Maecenas in sapien non lectus vehicula efficitur. Aenean interdum vel elit luctus efficitur.</p>
+          <p>Integer volutpat leo sit amet volutpat dapibus. Pellentesque faucibus arcu ut est posuere, faucibus sollicitudin nibh consectetur. Proin sed vulputate sapien, in ullamcorper dolor. Sed quis mollis turpis. Nunc non sem odio. Nunc mollis libero quis urna laoreet, nec facilisis turpis sodales. Morbi consequat nunc sit amet libero lobortis bibendum. Morbi sagittis leo nec quam mattis, rutrum sagittis dolor convallis. Integer placerat risus ac diam dictum porttitor. Suspendisse vestibulum congue lorem imperdiet malesuada. Morbi ac pellentesque erat, sed consequat nulla. Morbi felis lorem, accumsan in odio feugiat, convallis lobortis ligula. Donec facilisis tristique eleifend. Phasellus in ipsum sed massa ultricies gravida ut sed ligula. In convallis nisi lobortis fermentum ornare. Fusce augue neque, laoreet et mollis id, facilisis quis sapien.</p>
+          <p>Ut auctor purus vel justo hendrerit scelerisque. Pellentesque mauris enim, eleifend eu quam at, convallis pretium mi. Duis eleifend mattis massa, et scelerisque turpis. In pretium vitae orci quis posuere. Sed gravida dui id nibh sollicitudin, volutpat maximus erat ultrices. Morbi at facilisis libero. Donec ut bibendum leo. Sed cursus semper massa. Curabitur viverra mattis massa sit amet sagittis.</p>
+          <p>Integer tempus nisi vel enim vulputate, vel dictum enim dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse quis scelerisque metus. Etiam cursus ipsum non magna finibus malesuada. Quisque id felis sit amet velit facilisis sollicitudin quis id sapien. Donec ac aliquet nisi. Integer fringilla quam eget ornare mattis. Praesent rhoncus, metus eu faucibus convallis, eros libero laoreet risus, at efficitur ipsum velit quis purus. Vivamus quis risus felis. Maecenas libero turpis, consequat vel neque ac, aliquam vehicula lacus. Vestibulum ultricies volutpat sollicitudin. Etiam id tincidunt lorem.</p>
+          <p>Vestibulum eget consectetur nibh. Vivamus at dignissim purus. Duis in lorem vel ligula congue tristique ut condimentum dolor. Sed pulvinar turpis nisl, quis laoreet quam tempus sed. Praesent eget enim a nisi finibus cursus. Curabitur sit amet nisl ac erat efficitur pulvinar nec bibendum erat. Phasellus pharetra nibh et nisi blandit pharetra. Aliquam erat volutpat. Phasellus id pellentesque justo, non tincidunt ligula. Curabitur facilisis et orci quis convallis. In vel eros nec felis dictum posuere ac ut urna. Donec vel erat urna. Nunc in lorem consequat ex interdum tempor. Morbi consectetur feugiat condimentum. Vestibulum eros ligula, placerat nec ex nec, facilisis ornare sapien. Donec in lectus ac dui fermentum placerat.</p>
+          <p>Nunc imperdiet augue quis risus maximus, eu pellentesque tortor convallis. Morbi suscipit leo tempus erat maximus sagittis. Sed eget commodo nisi. Etiam vulputate nunc sit amet leo ullamcorper gravida. Sed sed lacus euismod est tincidunt bibendum. Aliquam in dui a lectus vehicula bibendum. Vestibulum eu pellentesque felis. Sed a commodo lectus, congue ornare velit. Integer sed imperdiet nulla. In eget porta risus, non ultrices ex. Maecenas a tellus facilisis, aliquet nunc quis, vestibulum justo. Vivamus id dapibus justo. Proin luctus sapien eget justo consequat commodo.</p>
+          <p>Proin nisi est, sodales vitae ante ac, placerat sodales justo. Phasellus tincidunt urna lectus, at venenatis mauris feugiat vitae. Vestibulum mattis, nisi vel iaculis mollis, quam risus euismod ex, nec efficitur nisl orci ut urna. Mauris metus magna, efficitur ut justo ut, sollicitudin volutpat mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae tortor nisl. Cras finibus nibh at magna venenatis blandit in vitae sem. Cras lacinia, leo sit amet scelerisque lobortis, lorem metus malesuada tellus, ac vestibulum augue leo ac lectus. </p>
+          <p>(End of Sushi section) <a href="#title">Back To Top</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
