@@ -6,4 +6,4 @@ Repo for this Coursera course: [HTML, CSS and Javascript for Web Developers](htt
 [Assignment 2](https://fikril.github.io/coursera-fullstack-course4/module2-solution/)<br/>
 [Assignment 3](https://fikril.github.io/coursera-fullstack-course4/module3-solution/)<br/>
 [Assignment 4](https://fikril.github.io/coursera-fullstack-course4/module4-solution/)<br/>
-[Assignment 5](https://fikril.github.io/coursera-fullstack-course5/module5-solution/)
+[Assignment 5](https://fikril.github.io/coursera-fullstack-course4/module5-solution/)<br/>
